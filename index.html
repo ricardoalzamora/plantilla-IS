@@ -1,74 +1,537 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
+
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Proceso de desarrollo de software</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/estilo.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="js/jquery-3.3.1.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingeniería de Software</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
 
-    <header>
-        <nav class="nav">
-            <i class="fas fa-desktop fa-4x"></i>
-            <a class="nav-link" href="index.html">Inicio</a>
-            <a class="nav-link" href="pages/acerca.html">Acerca de</a>
-        </nav>
-    </header>
+  <header>      
+    <nav class="nav">
+      <i class="fas fa-desktop fa-3x"></i>
+      <a class="nav-link" href="index.html">Inicio</a>
+      <a class="nav-link" href="acerca.html">Acerca de</a>
+    </nav>    
+    <h1 class="h2 text-center">Ciclo de desarrollo de software según la ISO/IEEE 12207</h1>
+  </header>
 
-    <main>
-            <div class="accordion" id="accordionExample">
-                    <div class="card">
-                      <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Collapsible Group Item #1
-                          </button>
-                        </h5>
-                      </div>
-                  
-                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Collapsible Group Item #2
-                          </button>
-                        </h5>
-                      </div>
-                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Collapsible Group Item #3
-                          </button>
-                        </h5>
-                      </div>
-                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-    </main>
+  <main>
+    <div class="accordion" id="accordionContent">
+      <div class="card">
+        <div class="card-header" id="headingA">
+          <h5 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseA" aria-expanded="true" aria-controls="collapseA">
+              Implementación del proceso
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseA" class="collapse show" aria-labelledby="headingA" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Implementación del proceso:</h2>
+            <p>Esta actividad consta de las siguientes tareas: <br/><br/><br/> 5.3.1.1 Si no está estipulado en el contrato,
+              el desarrollad or deberá definir o seleccionar un modelo de ciclo de vida apropiado al alcance, magnitud y
+              complejidad del proyecto. Se deberán seleccionar las actividades y tareas del proceso de desarrollo y establecer
+              una correspondencia entre dichas tareas y el modelo de ciclo de vida. NOTA: Estas actividades y tareas pueden
+              solaparse o interaccionar y pueden ser llevadas a cabo iterativamente o recursivamente.
+              <br/><br/> 5.3.1.2 El desarrollador deberá:
+              <br/><br/><br/> a) Documentar las salidas de acuerdo con el proceso de documentación (6 .1).
+              <br/><br/> b) Poner las salidas basándose en el proceso de gestión de la configuración (6.2) y llevar a cabo
+              el control de los cambios de acuerdo con él. c)
+              <br/><br/> Documentar y solucionar los problemas y no conformidades encontradas en los productos software y
+              tareas de a cuerdo con el proceso de solución de problemas (6.8).
+              <br/><br/> d) Llevar a cabo los procesos de apoyo (capítulo 6) tal como se especifique en el contrato.
+              <br/><br/> e) Establecer una línea base para cada elemento de la configuración con los elementos apropiados,
+              como los determin ados por el adquiriente y el proveedor.
+              <br/><br/><br/> 5.3.1.3 El desarrollador deberá seleccionar, adaptar y usar aquellas normas, métodos, herramientas
+              y lenguajes de programación (si no están estipuilados en el contrato) que estén documentados, sean pertinentes
+              y es tén establecidos por la organización para llevar a cabo las actividades del proceso de desarrollo y de
+              los procesos de apoyo (capítulo 6).
+              <br/><br/> 5.3.1.4 El desarrollador deberá preparar planes para realizar las actividades del proceso de desarrollo.
+              Los plane s deberían incluir normas específicas, métodos, herramientas, acciones y responsabilidades asociadas
+              con el desarrollo y calificación de todos los requerimientos, incluyendo los de seguridad física y de acceso.
+              Si fuese necesario, se pueden preparar planes separados. Se deberán documentar y ejecutar estos planes.
+              <br/><br/> 5.3.1.5 Para el desarrollo y mantenimiento del producto software se pueden emplear elementos no
+              entregables. Sin embargo, se deberá asegurar que la operación y mantenimiento del producto softwar e entregable,
+              luego de entregado al adquiriente, es independiente de dichos elementos, de otra manera se deberán considerar
+              como entregables.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingB">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseB" aria-expanded="false"
+              aria-controls="collapseB">
+              Análisis de los requerimientos del sistema
+            </button>
+          </h5>
+        </div>
+        <div id="collapseB" class="collapse" aria-labelledby="headingB" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Análisis de los requerimientos del sistema:</h2>
+            <p>Esta actividad consta de las siguientes tareas, que el desarr ollador deberá llevar a cabo o proporcionar
+              apoyo, según requiera el contrato:
+              <br/><br/><br/> 5.3.2.1 Se deberá analizar el uso específico previsto del sistema a ser desarrollado para especificar
+              los requerimientos del sistema. La especificación de los requerimientos del sistema deberá describir funciones
+              y capacidades del sistema; requerimientos de negocio, organizativos y de usuario; requerimientos de seguridad
+              física y de acceso; requerimientos de ingeniería de factores humanos (ergonomía), interfaces y requerimient
+              os de operación y mantenimiento; limitaciones de diseño y requerimientos de calificación. Se deberá documentar
+              la especificación de los requerimientos del sistema.
+              <br/><br/> 5.3.2.2 Se deberán evaluar los requerimientos del sistema teniendo en cuenta los criterio s enumerados
+              a continuación. Se deberán documentar los resultados de las evaluaciones.
+              <br/><br/><br/> a) Trazabilidad hacia las necesidades de la adquisición.
+              <br/><br/> b) Consistencia con las necesidades de la adquisición.
+              <br/><br/> c) Capacidad para ser probados.
+              <br/><br/> d) Viabilidad del diseño de l a arquitectura del sistema.
+              <br/><br/> e) Viabilidad de la operación y mantenimiento.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingC">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseC" aria-expanded="false"
+              aria-controls="collapseC">
+              Diseño de la arquitectura del sistema
+            </button>
+          </h5>
+        </div>
+        <div id="collapseC" class="collapse" aria-labelledby="headingC" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Diseño de la arquitectura del sistema:
+
+            </h2>
+            <p>Esta actividad consta de las siguientes tareas, que el desarrollador deberá llevar a cabo o proporcionar apoyo,
+              según requiere el cont rato. <br/><br/><br/> 5.3.3.1 Se deberá establecer la arquitectura del sistema a alto
+              nivel. La arquitectura deberá identificar los elementos hardware, software y operaciones manuales. Se deberá
+              asegurar que todos los requerimientos del sistema se distribuyen entre es tos elementos. Se deberán identificar
+              posteriormente, los elementos de configuración hardware, elementos de configuración software y las operaciones
+              manuales partiendo de estos elementos. Se deberá documentar la arquitectura del sistema y los requerimiento
+              s asignados a cada elemento.
+              <br/><br/> 5.3.3.2 Se deberá evaluar la arquitectura del sistema y los requerimientos para los elementos teniendo
+              en cuenta los criterios enumerados a continuación. Se deberán documentar los resultados de las evaluaciones.
+              <br/><br/><br/> a) Trazabili dad hacia los requerimientos del sistema.
+              <br/><br/> b) Consistencia con los requerimientos del sistema.
+              <br/><br/> c) Adecuación de las normas y métodos de diseño usados.
+              <br/><br/> d) Viabilidad de los elementos software para cumplir con sus requerimientos asignados.
+              <br/><br/> e) Viabilidad de la opera ción y mantenimiento.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingD">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseD" aria-expanded="false"
+              aria-controls="collapseD">
+              Análisis de los requerimientos software
+            </button>
+          </h5>
+        </div>
+        <div id="collapseD" class="collapse" aria-labelledby="headingD" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Análisis de los requerimientos software:</h2>
+            <p>Para cada elemento software (o para cada elemento de configuración software, si se ha identificado) esta actividad
+              consta de las siguientes tareas:
+              <br/><br/>
+              <br/> 5.3.4.1 El desarrollador deberá e stablecer y documentar los requerimientos software descritos a continuación,
+              incluyendo la especificación de las características de calidad. Se pueden encontrar guías para la especificación
+              de las características de calidad en la NTP - ISO/IEC 9126.
+              <br/><br/><br/> a) Especi ficaciones funcionales y de capacidad, incluyendo prestaciones, características físicas
+              y condiciones del entorno en donde el elemento software ha de funcionar.
+              <br/><br/> b) Interfaces externas al elemento software.
+              <br/><br/> c) Requerimientos de calificación.
+              <br/><br/> d) Especificaciones de seguridad física, incluyendo aquellas relacionadas con los métodos de operación
+              y mantenimiento, influencias del entorno y daño a las personas.
+              <br/><br/> e) Especificaciones de seguridad de acceso, incluyendo aquellas que comprometen información confidencial.
+              <br/><br/> f) Es pecificaciones relacionadas con ingeniería de factores humanos (ergonomía), incluyendo aquellas
+              relacionadas con las operaciones manuales, interacción hombre - máquina, obligaciones del personal y áreas
+              con necesidad de una especial atención por parte de las personas, debido a su sensibilidad a errores humanos
+              y a la destreza.
+              <br/><br/> g) Definición de datos y requerimientos de las bases de datos.
+              <br/><br/> h) Requerimientos de instalación y aceptación del producto software entregado, en el lugar o lugares
+              de operación y mantenimi ento.
+              <br/><br/> i) Documentación de usuario.
+              <br/><br/> j) Requerimientos de operación y ejecución por parte del usuario.
+              <br/><br/> k) Requerimientos de mantenimiento por parte del usuario.
+              <br/><br/><br/> 5.3.4.2 El desarrollador deberá evaluar los requerimientos software teniendo en cuenta los
+              criterio s enumerados a continuación. Se deberán documentar los resultados de la evaluación.
+              <br/><br/><br/> a) Trazabilidad hacia los requerimientos del sistema y el diseño del sistema.
+              <br/><br/> b) Consistencia externa con los requerimientos del sistema.
+              <br/><br/> c) Consistencia interna.
+              <br/><br/> d) Capacidad p ara ser probado.
+              <br/><br/> e) Viabilidad del diseño software.
+              <br/><br/> f) Viabilidad de la operación y mantenimiento.
+              <br/><br/><br/> 5.3.4.3 El desarrollador deberá llevar a cabo revisiones conjuntas de acuerdo con el apartado
+              6.6.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingE">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseE" aria-expanded="false"
+              aria-controls="collapseE">
+              Diseño de la arquitectura del software
+            </button>
+          </h5>
+        </div>
+        <div id="collapseE" class="collapse" aria-labelledby="headingE" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Diseño de la arquitectura del software:</h2>
+            <p>Para cada elemento software (o para cada elemento de configuración software, si se ha identificado), esta
+              actividad consta de las siguientes tareas: <br/> 5.3.4.1 El desarrollador deberá establecer y documentar los
+              requerimientos software descritos a continuación, incluyendo la especificación de las características de calidad.
+              Se pueden encontrar guías para la especificación de las características de calidad en la NTP-ISO/IEC 9126.
+              <br/> <br/><br/> a) Especi ficaciones funcionales y de capacidad, incluyendo prestaciones, características
+              físicas y condiciones del entorno en donde el elemento software ha de funcionar.
+              <br/><br/> b) Interfaces externas al elemento software.
+              <br/><br/> c) Requerimientos de calificación.
+              <br/><br/> d) Especificaciones de seguridad física, incluyendo aquellas relacionadas con los métodos de operación
+              y mantenimiento, influencias del entorno y daño a las personas.
+              <br/><br/> e) Especificaciones de seguridad de acceso, incluyendo aquellas que comprometen información confidencial.
+              <br/><br/> f) Es pecificaciones relacionadas con ingeniería de factores humanos (ergonomía), incluyendo aquellas
+              relacionadas con las operaciones manuales, interacción hombre - máquina, obligaciones del personal y áreas
+              con necesidad de una especial atención por parte de las personas, debido a su sensibilidad a errores humanos
+              y a la destreza.
+              <br/><br/> g) Definición de datos y requerimientos de las bases de datos.
+              <br/><br/> h) Requerimientos de instalación y aceptación del producto software entregado, en el lugar o lugares
+              de operación y mantenimi ento.
+              <br/><br/> i) Documentación de usuario.
+              <br/><br/> j) Requerimientos de operación y ejecución por parte del usuario.k) Requerimientos de mantenimiento
+              por parte del usuario.
+              <br/> <br/> 5.3.4.2 El desarrollador deberá evaluar los requerimientos software teniendo en cuenta los criterio
+              s enumerados a continuación. Se deberán documentar los resultados de la evaluación.
+              <br/>
+              <br/><br/> a) Trazabilidad hacia los requerimientos del sistema y el diseño del sistema.
+              <br/><br/> b) Consistencia externa con los requerimientos del sistema.
+              <br/><br/> c) Consistencia interna.
+              <br/><br/> d) Capacidad p ara ser probado.
+              <br/><br/> e) Viabilidad del diseño software.
+              <br/><br/> f) Viabilidad de la operación y mantenimiento.
+              <br/><br/> 5.3.4.3 El desarrollador deberá llevar a cabo revisiones conjuntas de acuerdo con el apartado 6.6.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingF">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseF" aria-expanded="false"
+              aria-controls="collapseF">
+              Diseño detallado del software
+            </button>
+          </h5>
+        </div>
+        <div id="collapseF" class="collapse" aria-labelledby="headingF" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Diseño detallado del software:</h2>
+            <p> Para cada elemento software (o para cada elemento de configuración software, si se ha identificado), esta
+              actividad consta de las siguientes tareas:
+              <br/><br/><br/> 5.3.6.1 El desarrollador deberá prepar ar un diseño detallado para cada componente software
+              del elemento software. Se deberá refinar los componentes software hasta los niveles más bajos, que contienen
+              las unidades software que pueden ser codificadas, compiladas y probadas. Se deberá asegurar qu e todos los
+              requerimientos software están asignados desde los componentes software hacia las unidades software. Se deberá
+              documentar el diseño detallado.
+              <br/><br/> 5.3.6.2 El desarrollador deberá preparar y documentar un diseño detallado de las interfaces externa
+              s al elemento software y entre los componentes software y las unidades software. El diseño detallado de las
+              interfaces deberá permitir la codificación sin necesidad de más información.
+              <br/><br/> 5.3.6.3 El desarrollador deberá preparar y documentar el diseño det allado para la base de datos.
+              <br/><br/> 5.3.6.4 El desarrollador deberá actualizar la documentación de usuario si es necesario.
+              <br/><br/> 5.3.6.5 El desarrollador deberá definir y documentar los requerimientos de prueba y planificar la
+              prueba de las unidades. Se deber ían incluir en los requerimientos de prueba situaciones que fuercen a las
+              unidades software hasta los límites de los requerimientos del software.
+              <br/><br/> 5.3.6.6 El desarrollador deberá actualizar los requerimientos de prueba y el plan para la integración
+              del s oftware.
+              <br/><br/> 5.3.6.7 El desarrollador deberá evaluar el diseño detallado del software y los requerimientos de
+              prueba teniendo en cuenta los criterios enumerados a continuación. Se deberán documentar los resultados de
+              la evaluación.
+              <br/><br/><br/> a) Trazabilidad hacia lo s requerimientos del elemento software.
+              <br/><br/> b) Consistencia externa con el diseño de la arquitectura.
+              <br/><br/> c) Consistencia interna entre los componentes software y las unidades software.
+              <br/><br/> d) Adecuación de los métodos de diseño y normas usadas.
+              <br/><br/> e) Viabilidad de las prueba
+              <br/><br/> s. ) Viabilidad de la operación y mantenimiento.
+              <br/><br/><br/> 5.3.6.8 El desarrollador deberá llevar a cabo revisiones conjuntas de acuerdo con el apartado
+              6.6.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingG">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseG" aria-expanded="false"
+              aria-controls="collapseG">
+              Codificación y pruebas del software
+            </button>
+          </h5>
+        </div>
+        <div id="collapseG" class="collapse" aria-labelledby="headingG" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Codificación y pruebas del software:</h2>
+            <p> Para cada elemento software (o para cada elemento de configuración s oftware, si se ha identificado), esta
+              actividad consta de las siguientes tareas:
+              <br/><br/><br/> 5.3.7.1 El desarrollador deberá desarrollar y documentar lo siguiente:
+              <br/><br/><br/> a) Cada unidad software y base de datos.
+              <br/><br/> b) Procedimientos de prueba y datos para probar cada unidad sof tware y base de datos.
+              <br/><br/><br/> 5.3.7.2 El desarrollador deberá probar cada unidad software y base de datos asegurando que
+              satisfacen sus requerimientos. Se deberán documentar los resultados de las pruebas.
+              <br/><br/> 5.3.7.3 El desarrollador deberá actualizar la docu mentación de usuario, si es necesario.
+              <br/><br/> 5.3.7.4 El desarrollador deberá actualizar los requerimientos de prueba y el plan para la integración
+              del software.
+              <br/><br/> 5.3.7.5 El desarrollador deberá evaluar el código software y los resultados de las pruebas ten iendo
+              en cuenta los criterios enumerados a continuación. Se deberán documentar los resultados de las evaluaciones.
+              <br/><br/><br/> a) Trazabilidad hacia los requerimientos y el diseño del elemento software.
+              <br/><br/> b) Consistencia externa con los requerimientos y el diseño del ele mento software.
+              <br/><br/> c) Consistencia interna entre los requerimientos de las unidades.
+              <br/><br/> d) Cobertura de pruebas de las unidades.
+              <br/><br/> e) Adecuación de los métodos de codificación y normas usadas.
+              <br/><br/> f) Viabilidad de la integración del software y de las pruebas.
+              <br/><br/> g) Viabilidad d e la operación y mantenimiento.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingH">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseH" aria-expanded="false"
+              aria-controls="collapseH">
+              Integración del software
+            </button>
+          </h5>
+        </div>
+        <div id="collapseH" class="collapse" aria-labelledby="headingH" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Integración del software:</h2>
+            <p>
+              Para cada elemento software (o para cada elemento de configuración de software, si se ha identificado), esta actividad consta
+              de las siguientes tareas:
+              <br/><br/><br/> 5.3.8.1 El desarrollador deberá preparar un plan de integración para integrar las unidades
+              software y los componentes software en el elemento software. El plan deberá incluir requerimientos de prueba,
+              procedimientos, datos, responsabilidades y plazos. Se deberá documentar el plan.
+              <br/><br/> 5.3 .8.2 El desarrollador deberá integrar las unidades software y los componentes software y probarlos
+              a medida que se agrupan de acuerdo con el plan de integración. Se deberá asegurar que cada agrupación satisface
+              los requerimientos del elemento software y q ue el elemento software está integrado al final de la actividad
+              de integración. Se deberá documentar los resultados de la integración y de las pruebas.
+              <br/><br/> 5.3.8.3 El desarrollador deberá actualizar la documentación de usuario, si es necesario.
+              <br/><br/> 5.3.8.4 El desarrollador deberá preparar y documentar, para cada requerimiento de calificación del
+              elemento software, un conjunto de pruebas, casos de prueba (entradas, salidas, criterios de prueba) y procedimientos
+              de prueba para llevar a cabo las pruebas de cal ificación del software. El desarrollador deberá asegurar que
+              el elemento software integrado está listo para las pruebas de calificación del software.
+              <br/><br/> 5.3.8.5 El desarrollador deberá evaluar el plan de integración, el diseño, el código, las pruebas,
+              los resultad os de las pruebas y la documentación de usuario teniendo en cuentalos criterios enumerados a continuación.
+              Se deberán documentar los resultados de las evaluaciones.
+              <br/><br/><br/> a) Trazabilidad hacia los requerimientos del sistema.
+              <br/><br/> b) Consistencia externa con los reque rimientos del sistema.
+              <br/><br/> c) Consistencia interna.
+              <br/><br/> d) Cobertura de las pruebas de los requerimientos del elemento software.
+              <br/><br/> e) Adecuación de las normas de prueba y de los métodos usados.
+              <br/><br/> f) Conformidad con los resultados esperados.
+              <br/><br/> g) Viabilidad de las pruebas de cal ificación del software.
+              <br/><br/> h) Viabilidad de la operación y mantenimiento.
+              <br/><br/><br/> 5.3.8.6 El desarrollador debería llevar a cabo revisiones conjuntas de acuerdo con el apartado
+              6.6.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingI">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseI" aria-expanded="false"
+              aria-controls="collapseI">
+              Pruebas de calificación del software
+            </button>
+          </h5>
+        </div>
+        <div id="collapseI" class="collapse" aria-labelledby="headingI" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Pruebas de calificación del software:</h2>
+            <p>
+              Para cada elemento software (o par a cada elemento de configuración software, si se ha identificado), esta actividad consta
+              de las siguientes tareas:
+              <br/>
+              <br/><br/> 5.3.9.1 El desarrollador deberá llevar a cabo pruebas de calificación de acuerdo con los requerimientos
+              de calificación para el elemento software. Se deberá asegurar que se prueba la conformidad de la implementación
+              de cada requerimiento software. Se deberán documentar los resultados de las pruebas de calificación.
+              <br/><br/> 5.3.9.2 El desarrollador deberá actualizar la documentación de usuario, si es necesario.
+              <br/><br/> 5.3.9.3 El desarrollador deberá evaluar el diseño, el código, las pruebas, los resultados de las
+              pruebas y la documentación de usuario teniendo en cuenta los criterios enumerados a continuación. Se deberán
+              documentar los resultados de las evaluaciones.
+              <br/><br/><br/> a) Cobertura de las pruebas de los requerimientos del elemento software.
+              <br/><br/> b) Conformidad con los resultados esperados.
+              <br/><br/> c) Viabilidad de la integración del sistema y las pruebas, si se llevan a cabo.
+              <br/><br/> d) Viabilidad de la operación y mantenimient o.
+              <br/><br/><br/> 5.3.9.4 El desarrollador deberá proporcionar soporte a las auditorías de acuerdo con el apartado
+              6.7. Se deberán documentar los resultados de las auditorías. Si el hardware y el software están bajo desarrollo
+              o integración, las auditorías pueden posp onerse hasta las pruebas de calificación del sistema.
+              <br/><br/> 5.3.9.5 Tras la finalización exitosa de las auditorías, si se llevan a cabo, el desarrollador deberá:
+              <br/><br/><br/> a) Actualizar y preparar el producto software entregable para la integración del sistema, prueba
+              s de calificación del sistema, instalación del software o apoyo a la aceptación del software, como proceda.
+              NOTA: Las pruebas de calificación del software se pueden usar en el proceso de verificación (6.4) o en el proceso
+              de validación (6.5).
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingJ">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseJ" aria-expanded="false"
+              aria-controls="collapseJ">
+              Integración del sistema
+            </button>
+          </h5>
+        </div>
+        <div id="collapseJ" class="collapse" aria-labelledby="headingJ" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Integración del sistema:</h2>
+            <p> Esta actividad consta de las siguientes tareas, que el desarrollador deberá llevar a cabo o proporcionar
+              apoyo, tal como requiere el contrato.
+              <br/><br/><br/> 5.3.10.1 Los elementos de configuración software se deberán integrar con los elementos de configuración
+              hardware, operaciones manuales y otros sistemas si es necesario, para formar el sistema. Se deberán probar
+              las integraciones frente a sus requerimientos, al mismo tiempo que se desarrollen. Se deberán documentar los
+              resultados de la integ ración y pruebas.
+              <br/><br/> 5.3.10.2 Se deberá desarrollar y documentar para cada requerimiento de calificación del sistema,
+              un conjunto de pruebas, casos de prueba (entradas, salidas, criterios de prueba) y procedimientos de prueba
+              para llevar a cabo las prueba s de calificación del sistema. El desarrollador deberá asegurar que el sistema
+              integrado está listo para las pruebas de calificación del sistema.
+              <br/><br/> 5.3.10.3 El sistema integrado se deberá evaluar teniendo en cuenta los criterios enumerados a continuación.
+              Se deberán documentar los resultados de las evaluaciones.
+              <br/><br/><br/> a) Cobertura de las pruebas de los requerimientos del sistema.
+              <br/><br/> b) Adecuación de los métodos de prueba y normas usadas.
+              <br/><br/> c) Conformidad con los resultados esperados.
+              <br/><br/> d) Viabilidad de la prueba de califi cación del sistema.
+              <br/><br/> e) Viabilidad de la operación y mantenimiento.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingK">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseK" aria-expanded="false"
+              aria-controls="collapseK">
+              Pruebas de calificación del sistema
+            </button>
+          </h5>
+        </div>
+        <div id="collapseK" class="collapse" aria-labelledby="headingK" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Pruebas de calificación del sistema:</h2>
+            <p>
+              Esta actividad consta de las siguientes tareas que el desarrollador deberá llevar a cabo o proporcionar apoyo, tal como requiere
+              el contrato.
+              <br/><br/><br/> 5.3.11.1 Las pruebas de calificación del sistema se deberá llevar a cabo de acuerdo con los
+              requerimientos de calificación especificados para el sistema. Se deberá asegurar que se prueba la conformidad
+              de la implementación de cada requerimiento del siste ma y que el sistema está listo para su entrega. Se deberán
+              documentar los resultados de las pruebas de calificación.
+              <br/><br/> 5.3.11.2 Se deberá evaluar el sistema teniendo en cuenta los criterios enumerados a continuación.
+              Se deberán documentar los resultados de las evaluaciones.
+              <br/><br/><br/> a) Cobertura de las pruebas de los requerimientos del sistema.
+              <br/><br/> b) Conformidad con los resultados esperados.
+              <br/><br/> c) Viabilidad de la operación y mantenimiento.
+              <br/><br/><br/> 5.3.11.3 El desarrollador deberá proporcionar apoyo a las auditorías de acuerdo co n el apartado
+              6.7. Se deberán documentar los resultados de las auditorías.
+              <br/><br/> NOTA: Este apartado no es aplicable a aquellos elementos de configuración que hubieran sido auditados
+              previamente.
+              <br/><br/> 5.3.11.4 Tras la terminación con éxito de las auditorías, si se han llevado a cabo, el desarrollador
+              deberá:
+              <br/><br/><br/> a) Actualizar y preparar el producto software entregable para la instalación del software y
+              el soporte a la aceptación del software.
+              <br/><br/><br/> NOTA: Se pueden usar las pruebas de calificación del sistema en el proces o de verificación(6.4)
+              o en el proceso de validación (6.5).
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingL">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseL" aria-expanded="false"
+              aria-controls="collapseL">
+              Instalación del software
+            </button>
+          </h5>
+        </div>
+        <div id="collapseL" class="collapse" aria-labelledby="headingL" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Instalación del software:</h2>
+            <p>Esta actividad consta de las siguientes tareas: <br/><br/><br/> 5.3.12.1 El desarrollador deberá preparar
+              un plan para instalar el producto software en el entorno de destino, tal co mo se especifica en el contrato.
+              Se deberán determinar y estar disponibles los recursos y la información necesaria para instalar el producto
+              software. <br/><br/> El desarrollador deberá ayudar al adquiriente con las actividades de puesta en marcha
+              tal como se espe cifique en el contrato. En los casos en que el software instalado reemplace a un sistema existente,
+              el desarrollador deberá proporcionar apoyo a cualquier actividad realizada en paralelo que sea requerida por
+              el contrato. Se deberá documentar el plan de in stalación.
+              <br/><br/> 5.3.12.2 El desarrollador deberá instalar el producto software de acuerdo con el plan de instalación.
+              Se deberá asegurar que el código software y las bases de datos se inicializan, ejecutan y terminan tal como
+              se especifica en el contrato. S e deberán documentar las incidencias y resultados de la instalación.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingM">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseM" aria-expanded="false"
+              aria-controls="collapseM">
+              Apoyo a la aceptación del software
+            </button>
+          </h5>
+        </div>
+        <div id="collapseM" class="collapse" aria-labelledby="headingM" data-parent="#accordionContent">
+          <div class="card-body">
+            <h2>Apoyo a la aceptación del software:</h2>
+            <p>Esta actividad consta de las siguientes tareas:
+              <br/><br/><br/> 5.3.13.1 El desarrollador deberá proporcionar apoyo a las revisiones y pruebas de aceptaci
+              ón llevadas a cabo por el adquiriente del producto software. Las revisiones y pruebas de aceptación deberán
+              tener en cuenta los resultados de las revisiones conjuntas (6.6), auditorías (6.7), pruebas de calificación
+              del software y pruebas de calificación d el sistema (si se llevan a cabo). Se deberán documentar los resultados
+              de las pruebas y
+              <br/><br/> revisiones de aceptación. 5.3.13.2 El desarrollador deberá completar y entregar el producto software
+              tal como se especifica en el contrato.
+              <br/><br/> 5.3.13.3 El desarroll ador deberá proporcionar formación inicial y continua y dar apoyo al adquiriente
+              tal como se especifica en el contrato.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="card-header">
+      <p>Universidad del Magdalena
+        <br>
+        Ingeniería de Software
+      </p>
+      <p>2018</p>
+    </div>
+  </footer>
 </body>
+
 </html>
